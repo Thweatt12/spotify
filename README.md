@@ -19,8 +19,21 @@ The pipeline architecture includes:
 6. **Power BI** for analytics and visualization
 
 ---
+## Power BI Dashboard
+
+The final Power BI dashboard provides insights into user engagement and artist performance.
+
+**Key Metrics**
+- Total Plays, Skips, and Playlist Adds
+- Active Users and Songs
+- Geographic distribution of plays
+- Device type distribution (mobile, web, desktop)
+
+![Spotify Dashboard](spotify_data.png)
+
 
 ## Architecture
 
 ```text
 Spotify Simulator → Kafka → Airflow → MinIO → Snowflake → dbt → Power BI
+
