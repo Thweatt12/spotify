@@ -1,11 +1,29 @@
+# Python
 __pycache__/
-logs/
-plugins/
-analyses/
-macros/
-seeds/
-snapshots/
-target/
-tests/
-dbt_project.yml
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Environment
 .env
+venv/
+.env/
+
+# Logs
+logs/
+airflow/logs/
+
+# dbt
+target/
+dbt_packages/
+# (keep dbt_project.yml, analyses, macros, seeds, snapshots, tests tracked)
+
+# Airflow
+*.log
+*.pid
+airflow-webserver.pid
+
+# System files
+.idea/
+.vscode/
