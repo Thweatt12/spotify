@@ -29,7 +29,8 @@ The final Power BI dashboard provides insights into user engagement and artist p
 - Geographic distribution of plays
 - Device type distribution (mobile, web, desktop)
 
-![Spotify Dashboard](spotify%20data.png)
+![Spotify Dashboard](spotify_dash.png)
+
 
 
 ## Architecture
